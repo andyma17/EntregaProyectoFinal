@@ -9,7 +9,7 @@ public class Menu {
     public void mostrarMenu(){
       Arreglos t=new Arreglos();
       while(opcion!=5){
-         opcion=Byte.parseByte(JOptionPane.showInputDialog(null,"***MENÚ PRINCIPAL***\n\n"
+         opcion=Byte.parseByte(JOptionPane.showInputDialog(null,"            ***MENÚ PRINCIPAL***\n\n"
                  + "1. Agregar Cantidad de Productos\n"
                  + "2. Mostrar Cantidad de productos\n"
                  + "3. Ingresar Ventas\n"

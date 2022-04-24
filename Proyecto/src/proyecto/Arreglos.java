@@ -134,7 +134,7 @@ public class Arreglos {
             }
             
            CantHot=Integer.parseInt(JOptionPane.showInputDialog(null,"Digite la cantidad de Hot Dog que espera vender el dia de mañana en sucursal "+Datos[x].getNombreSucu())); 
-           if (CantHot<=Datos[x].getCantPanHot()&& CantHam<=Datos[x].getCantSalchicha()){
+           if (CantHot<=Datos[x].getCantPanHot()&& CantHot<=Datos[x].getCantSalchicha()){
                 JOptionPane.showMessageDialog(null,"Tiene el inventario completo para poder vender Hot Dog");
             }else{
                 JOptionPane.showMessageDialog(null,"El inventario de productos no esta completo, debe llamar al proveedor");
